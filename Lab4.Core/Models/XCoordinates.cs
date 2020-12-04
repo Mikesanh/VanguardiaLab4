@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab4.Core.Models
 {
-    public enum BoardXCoordinate
+    public enum XCoordinates
     {
         A = 0,
         B = 1,
