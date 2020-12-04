@@ -9,37 +9,30 @@
   },
   {
     "piece": "C",
-    "XPos": "g",
-    "YPos": "1",
-    "newXPos": "f",
-    "newYPos": "3",
-    "isWhitePiece": 0
+    "XPos": "a",
+    "YPos": "3",
+    "newXPos": "c",
+    "newYPos": "6",
+    "isWhitePiece": 1
   },
 
   {
-    "piece": "C",
-    "XPos": "g",
-    "YPos": "1",
+    "piece": "P",
+    "XPos": "d",
+    "YPos": "3",
     "newXPos": "f",
     "newYPos": "3",
     "isWhitePiece": 0
   },
   {
-    "piece": "C",
-    "XPos": "g",
-    "YPos": "1",
-    "newXPos": "f",
-    "newYPos": "3",
-    "isWhitePiece": 0
-  },
-  {
-    "piece": "C",
-    "XPos": "g",
-    "YPos": "1",
-    "newXPos": "f",
-    "newYPos": "3",
-    "isWhitePiece": 0
+    "piece": "T",
+    "XPos": "d",
+    "YPos": "2",
+    "newXPos": "g",
+    "newYPos": "1",
+    "isWhitePiece": 1
   }
+ 
 
 
 

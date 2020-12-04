@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Lab4.Core.Models.Movements
 {
-    public class KnightMovement : Rules
+    public class KnightMovement : BaseRules
     {
         public override bool IsMatch(Piece piece)
         {

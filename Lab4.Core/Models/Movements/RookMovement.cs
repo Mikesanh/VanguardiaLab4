@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab4.Core.Models.Movements
 {
-    public class RookMovement : Rules
+    public class RookMovement : BaseRules
     {
         public override bool IsMatch(Piece piece)
         {

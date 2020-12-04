@@ -6,7 +6,7 @@ using Lab4.Core.Models.ChessPieces;
 
 namespace Lab4.Core.Models.Movements
 {
-    public abstract class Rules
+    public abstract class BaseRules
     {
         
         public abstract bool IsMatch(Piece piece);

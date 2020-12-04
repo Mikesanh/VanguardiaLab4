@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Lab4.Core.Interfaces;
 
-namespace Lab4.Infrastructure
+namespace Lab4.Infrastructure.Sources
 {
-    public class JsonFileSource
+    public class JsonFileGameSource : IChessSource
     {
         public string GetDataFromJson()
         {

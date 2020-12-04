@@ -14,5 +14,10 @@ namespace Lab4.Core.Models.ChessPieces
             PieceType = pieceType;
             IsWhitePiece = isWhitePiece;
         }
+        public virtual void Move(int[,] board, Movement movement)
+        {
+           
+            board[(int)movement.NewXPos, movement.NewYPos] = 1;
+        }
     }
 }
