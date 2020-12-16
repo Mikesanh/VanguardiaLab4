@@ -39,11 +39,37 @@ namespace Lab4.Tests.Builders
             _rule = new PawnMovement();
             return this;
         }
+        public RulesTestBuilder WithKnightRule()
+        {
+
+            _rule = new KnightMovement();
+            return this;
+        }
+        public RulesTestBuilder WithRookRule()
+        {
+
+            _rule = new RookMovement();
+            return this;
+        }
+
+
 
         public RulesTestBuilder WithPawnPiece()
         {
            
             Piece = new Pawn(PieceType.P, true);
+            return this;
+        }
+        public RulesTestBuilder WithKnightPiece()
+        {
+
+            Piece = new Knight(PieceType.C, true);
+            return this;
+        }
+        public RulesTestBuilder WithRookPiece()
+        {
+
+            Piece = new Rook(PieceType.T, true);
             return this;
         }
 

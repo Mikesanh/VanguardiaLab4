@@ -7,12 +7,28 @@
     "newYPos": "3",
     "isWhitePiece": 0
   },
+  "knightInvalidMovement": {
+    "piece": "C",
+    "XPos": "g",
+    "YPos": "192",
+    "newXPos": "g",
+    "newYPos": "90",
+    "isWhitePiece": 0
+  },
   "rookValidMovement": {
     "piece": "T",
     "XPos": "e",
     "YPos": "2",
     "newXPos": "e",
     "newYPos": "4",
+    "isWhitePiece": 1
+  },
+  "rookInvalidMovement": {
+    "piece": "T",
+    "XPos": "a",
+    "YPos": "8",
+    "newXPos": "b",
+    "newYPos": "8",
     "isWhitePiece": 1
   },
   "pawnValidMovement": {
