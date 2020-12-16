@@ -28,7 +28,8 @@ namespace Lab4.Core.Models.Movements
             };
 
             return validMovements.Any(x =>
-          (int)movement.XPos + x.Item1 == (int)movement.NewYPos && movement.YPos + x.Item2 == movement.NewYPos);
+          (int)movement.XPos + x.Item1 == (int)movement.NewXPos && 
+          movement.YPos + x.Item2 == movement.NewYPos);
         }
     }
 }

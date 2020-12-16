@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lab4.Core.Models.Rules
+namespace Lab4.Core.Rules
 {
     public partial class RulesBuilder
     {

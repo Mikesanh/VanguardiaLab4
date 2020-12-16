@@ -37,7 +37,7 @@ namespace Lab4.Core
             }
             catch (Exception e)
             {
-                
+               
                 throw e;
             }
         }

@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Lab4.Core.Models.Movements;
+using System.Runtime.CompilerServices;
 
-namespace Lab4.Core.Models.Rules
+[assembly: InternalsVisibleTo("Lab4.Tests")]
+namespace Lab4.Core.Rules
 {
     internal class MovementsRuleEngine : IRuleEngine
     {

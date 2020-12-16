@@ -1,0 +1,34 @@
+﻿{
+  "knightValidMovement": {
+    "piece": "C",
+    "XPos": "g",
+    "YPos": "1",
+    "newXPos": "f",
+    "newYPos": "3",
+    "isWhitePiece": 0
+  },
+  "rookValidMovement": {
+    "piece": "T",
+    "XPos": "e",
+    "YPos": "2",
+    "newXPos": "e",
+    "newYPos": "4",
+    "isWhitePiece": 1
+  },
+  "pawnValidMovement": {
+    "piece": "P",
+    "XPos": "e",
+    "YPos": "4",
+    "newXPos": "e",
+    "newYPos": "5",
+    "isWhitePiece": 1
+  },
+  "pawnInvalidMovement": {
+    "piece": "P",
+    "XPos": "e",
+    "YPos": "5",
+    "newXPos": "e",
+    "newYPos": "8",
+    "isWhitePiece": 1
+  }
+}

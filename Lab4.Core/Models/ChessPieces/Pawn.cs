@@ -6,7 +6,8 @@ namespace Lab4.Core.Models.ChessPieces
 {
     public class Pawn: Piece
     {
-        public Pawn(PieceType pieceType, bool isWhitePiece) : base(pieceType, isWhitePiece)
+        public Pawn(PieceType pieceType, bool isWhitePiece) 
+            : base(pieceType, isWhitePiece)
         {
         }
     }

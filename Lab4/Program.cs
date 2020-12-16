@@ -2,7 +2,7 @@
 using Lab4.Core;
 using Lab4.Infrastructure.Serializers;
 using Lab4.Infrastructure.Sources;
-using Lab4.Core.Models.Rules;
+using Lab4.Core.Rules;
 using Newtonsoft.Json.Linq;
 
 namespace Lab4

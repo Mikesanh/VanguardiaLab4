@@ -8,7 +8,7 @@ namespace Lab4.Core.Models.Movements
 {
     public abstract class BaseRules
     {
-        
+        public BaseRules() { }
         public abstract bool IsMatch(Piece piece);
 
         public abstract bool ValidateMovement(int[,] board, Piece piece, Movement movement);
